@@ -1,6 +1,5 @@
 # Financial Ratio Quantile Strategy 
 ## Constructing & Optimizing Rank-Based Equity Portfolios
-## Goal
 We evaluate the efficacy of single-factor and multi-factor signals within a market-neutral, long-short equity framework. The project systematically backtests top-and-bottom decile trading strategies based on fundamental financial ratios to determine the primary drivers of alpha, concluding with an optimized weighted vigintile approach.
 
 ## Strategy Mechanics
