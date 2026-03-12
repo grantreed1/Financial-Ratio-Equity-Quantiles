@@ -1,8 +1,8 @@
-# Long-Short-Equity-Quantile
-# Financial Ratio Quantile Strategies: Constructing & Optimizing Rank-Based Equity Portfolios
-
-## Overview
-This repository evaluates the efficacy of single-factor and multi-factor signals within a market-neutral, long-short equity framework. The project systematically backtests top-and-bottom decile trading strategies based on fundamental financial ratios to determine the primary drivers of alpha, concluding with an optimized weighted vigintile approach.
+# Financial Ratio Quantile Strategy 
+## Constructing & Optimizing Rank-Based Equity Portfolios
+---
+## Goal
+We evaluate the efficacy of single-factor and multi-factor signals within a market-neutral, long-short equity framework. The project systematically backtests top-and-bottom decile trading strategies based on fundamental financial ratios to determine the primary drivers of alpha, concluding with an optimized weighted vigintile approach.
 
 ## Strategy Mechanics
 * **Universe & Ranking:** Equities are cross-sectionally ranked and bucketed into quantiles (deciles and vigintiles) based on target financial ratios.
@@ -28,6 +28,3 @@ A Weighted Vigintile experiment was conducted to test the hypothesis that rank-b
 * **Result:** The quantile ranking system is highly sensitive to concentration. By allocating capital exclusively to the **top 5%** of the P/E Ratio distribution, the strategy achieved its optimal performance:
   * **Peak Pure Return:** 12.15%
   * **Sharpe Ratio:** 1.41
-
-├── requirements.txt    # Project dependencies
-└── README.md
