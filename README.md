@@ -26,3 +26,6 @@ A Weighted Vigintile experiment was conducted to test the hypothesis that rank-b
 * **Result:** The quantile ranking system is highly sensitive to concentration. By allocating capital exclusively to the **top 5%** of the P/E Ratio distribution, the strategy achieved its optimal performance:
   * **Peak Pure Return:** 12.15%
   * **Sharpe Ratio:** 1.41
+ 
+ ## Data Notice
+ The historical fundamental and pricing data used to backtest these strategies was sourced from Zacks Fundamentals B. To comply with vendor licensing agreements, this proprietary dataset is excluded from the repository.
